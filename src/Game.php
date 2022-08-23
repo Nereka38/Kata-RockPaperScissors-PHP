@@ -17,6 +17,7 @@ class Game {
         if ($player1->getFigure()->getType() == "Paper" && $player2->getFigure()->getType() == "Rock") {
             return "Player 1 wins";
         }
+        
     }
 
 }

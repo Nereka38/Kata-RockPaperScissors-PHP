@@ -6,7 +6,6 @@ use App\Models\Paper;
 use App\Models\Player;
 use App\Models\Rock;
 use App\Models\Scissors;
-use App\Models\Paper;
 use PHPUnit\Framework\TestCase;
 
 class PlayerTest extends TestCase
