@@ -6,7 +6,8 @@ use App\Models\Figure;
 
 class Scissors extends Figure {
 
-    public function __construct() {
+    public function __construct() 
+    {
         $this->type = "Scissors";
     }
 

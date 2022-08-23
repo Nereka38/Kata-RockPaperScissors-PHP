@@ -34,6 +34,7 @@ class GameTest extends TestCase {
 
         $this->assertEquals("Player 1 wins", $winner);
     }
+    
     public function test_player1_Paper_player2_Rock_1_win()
     {
         $game = new Game;
@@ -46,6 +47,7 @@ class GameTest extends TestCase {
 
         $this->assertEquals("Player 1 wins", $winner);
     }
+
     public function test_player1_Paper_player2_Paper_Draw()
     {
         $game = new Game;

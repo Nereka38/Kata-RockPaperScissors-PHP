@@ -6,15 +6,21 @@ class Game {
     
     public function start($player1, $player2) : string
     {
-        if ($player1->getFigure()->getType() == "Rock" && $player2->getFigure()->getType() == "Scissors") {
+        if ($player1->getFigure()->getType() == "Rock" && $player2->getFigure()->getType() == "Scissors") 
+        {
             return "Player 1 wins";
         }
-        if ($player1->getFigure()->getType() == "Scissors" && $player2->getFigure()->getType() == "Paper") {
+
+        if ($player1->getFigure()->getType() == "Scissors" && $player2->getFigure()->getType() == "Paper") 
+        {
             return "Player 1 wins";
         }
-        if ($player1->getFigure()->getType() == "Paper" && $player2->getFigure()->getType() == "Rock") {
+
+        if ($player1->getFigure()->getType() == "Paper" && $player2->getFigure()->getType() == "Rock") 
+        {
             return "Player 1 wins";
         }
+
         if ($player1->getFigure() == $player2->getFigure()) {
             return "Draw";
         }
