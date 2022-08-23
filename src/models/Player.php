@@ -13,14 +13,18 @@ class Player {
 
     public function chose(string $figure)
     {
-        if ($figure == "Rock") {
+        if ($figure == "Rock") 
+        {
             $this->figure = new Rock;
         }
 
-        if ($figure == "Scissors") {
+        if ($figure == "Scissors") 
+        {
             $this->figure = new Scissors;
         }
-        if ($figure == "Paper") {
+
+        if ($figure == "Paper") 
+        {
             $this->figure = new Paper;
         }
 
