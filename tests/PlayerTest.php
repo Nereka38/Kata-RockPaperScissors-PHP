@@ -2,6 +2,7 @@
 
 namespace Tests;
 
+use App\Models\Paper;
 use App\Models\Player;
 use App\Models\Rock;
 use App\Models\Scissors;
@@ -31,8 +32,8 @@ class PlayerTest extends TestCase
 
         $this->assertEquals($scissors, $player->getFigure());
     }
-
-    public function test_player_chose_paper()
+    
+    public function test_player_chose_Paper()
     {
         $player = new Player;
         $paper = new Paper;
@@ -41,6 +42,5 @@ class PlayerTest extends TestCase
 
         $this->assertEquals($paper, $player->getFigure());
     }
-
     
 }
