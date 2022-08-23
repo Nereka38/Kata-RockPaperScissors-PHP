@@ -32,7 +32,7 @@ class PlayerTest extends TestCase
         $this->assertEquals($scissors, $player->getFigure());
     }
 
-    public function test_player_chose_Paper()
+    public function test_player_chose_paper()
     {
         $player = new Player;
         $paper = new Paper;
